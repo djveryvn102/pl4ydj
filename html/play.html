@@ -1,0 +1,159 @@
+ <!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>dj.pro.vn - Free Mp3 Download and Streaming</title>
+    <meta name="robots" content="index,follow">
+    <meta http-equiv="content-language" content="en">
+    <meta name="description" content="Listen to your favorite mp3 song and Download Mp3 Free in high quality.">
+    <meta name="keywords" content="Free music download, mp3 music download, free mp3 download, mp3 music, free music, new music album, billboard music awards">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"> 
+
+    <meta property="og:type" content="website">
+    <meta property="og:image:width" content="650">
+    <meta property="og:image:height" content="350">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="article:publisher" content="https://www.facebook.com/">
+    <meta property="og:url" content="https://dj.pro.vn/">
+    <meta property="og:title" content="dj.pro.vn - Free Mp3 Download and Streaming">
+    <meta property="og:description" content="Listen to your favorite mp3 song and Download Mp3 Free in high quality.">
+    <meta property="og:site_name" content="dj.pro.vn">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" href="css/slide.css" type="text/css">
+	<link rel="stylesheet" href="css/font-awesome.css" type="text/css">
+	<link rel="stylesheet" href="css/icons.css" type="text/css">
+	<link rel="stylesheet" href="css/psbar.css" type="text/css">
+	<link rel="stylesheet" href="css/socialshare.css" type="text/css">
+	<link rel="stylesheet" href="css/player.css" type="text/css">
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+
+    
+
+</head>
+ <!--music player-->
+            <div class="music-player">
+    <div class="mp-sound">
+        <div class="mps-title">Add sound to<span>your music</span></div>
+        <ul class="nonestyle mps-list">
+            <li data-sound="birds" class="sound-item">
+                <a href="javascript:void(0)" title=""><i class="icon-cheeper"></i><span>Birds</span></a>
+                <a title="Birds" class="sound-close">
+                    <i class="icon-close"></i>
+                </a>
+                <audio class="sound-effect" id="sound-birds" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/birds.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li data-sound="rain" class="sound-item">
+                <a href="javascript:void(0)" title="Rain"><i class="icon-rain"></i><span>Rain</span></a>
+                <a title="Rain" class="sound-close">
+                    <i class="icon-close"></i>
+                </a>
+                <audio class="sound-effect" id="sound-rain" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/rain.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li data-sound="water" class="sound-item"><a title="Water"><i class="fa fa-tint"></i><span>Water</span></a><a title="Water" class="sound-close"><i class="icon-close"></i></a>
+                <audio class="sound-effect" id="sound-water" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/water.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li data-sound="stormy" class="sound-item"><a href="javascript:void(0)" title="Stormy"><i class="fa fa-bolt"></i><span>Stormy</span></a><a title="Stormy" class="sound-close"><i class="icon-close"></i></a>
+                <audio class="sound-effect" id="sound-stormy" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/stormy.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li data-sound="waves" class="sound-item"><a href="javascript:void(0)" title="Waves"><i class="icon-waves"></i><span>Waves</span></a><a title="Waves" class="sound-close"><i class="icon-close"></i></a>
+                <audio class="sound-effect" id="sound-waves" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/waves.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li data-sound="crickets" class="sound-item"><a href="javascript:void(0)" title="Cricket"><i class="icon-cricket"></i><span>Crickets</span></a><a title="Cricket" class="sound-close"><i class="icon-close"></i></a>
+                <audio class="sound-effect" id="sound-crickets" loop>
+                    <source src="https://web.archive.org/web/20161114212725im_/http://streaming.vupload.ru/sounds/crickets.m4a" type="audio/mpeg">
+                </audio>
+            </li>
+            <li class="clearfix"></li>
+        </ul>
+        <div class="mps-balance">
+            <div class="mpsb-title">Sound’s balance (<span id="se-volume-text">60</span>%)</div>
+            <div class="nonestyle balance-sound">
+                <span data-value="1" class="volume-level active"></span><span data-value="2" class="volume-level active"></span><span class="volume-level active" data-value="3"></span><span data-value="4" class="volume-level"></span><span class="volume-level" data-value="5"></span>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div id="jplayer-pro"><audio id="jp_audio_0" preload="metadata" src="https://d2tml28x3t0b85.cloudfront.net/tracks/audio/:original/5f0424b0c3c911e89427276b99b24fdb/DJ-very-vn-Nonstop-Viet-Mix-Hay-So-1-VN-DJ-Thang-Nhoc-MP3-320Kbps.mp3"></audio></div>
+    <div id="xplayer">
+        <div class="xplayer-bar" id="progress-bar">
+            <div class="xplayer-barload"></div>
+            <div class="xplayer-btn"></div>
+            <div class="xplayer-buffer"></div>
+        </div>
+        <div class="xplayer-container" id="control-container">
+            <div id="control-prev" class="pc-prev pc-btn pc-small" data-placement="top" data-toggle="tooltip" data-original-title="Prev"><i class="player-previous"></i></div>
+            <div id="play-state" class="pc-play pc-btn pc-large active pause"><i class="player-play"></i></div>
+            <div id="control-next" class="pc-prev pc-btn pc-small" data-placement="top" data-toggle="tooltip" data-original-title="Next"><i class="player-next"></i></div>
+            <div class="pc-timer"><span class="jp-current-time"></span> / <span class="jp-duration"></span></div>
+            <div class="pc-volume">
+                <div class="pcv-icon pc-btn pc-normal" data-placement="top" data-toggle="tooltip" data-original-title="Volume"><i class="player-volume-high"></i></div>
+                <div class="pcv-value" id="volume-bar">
+                    <div class="xplayer-barload"></div>
+                    <div class="xplayer-btn"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="pc-quality">
+                <span id="quality-selected" class="pcq-show"></span>
+                <div class="pcq-table" id="quality-list"></div>
+            </div>
+            <div id="control-loop" class="pc-repeat pc-btn pc-normal active" data-placement="top" data-toggle="tooltip" data-original-title="Loop"><i class="player-repeat"></i></div>
+            <!--            <div id="control-random" class="pc-random pc-btn pc-normal" data-placement="top" data-toggle="tooltip"-->
+            <!--                 data-original-title="Random"><i class="player-random"></i></div>-->
+            <div class="pc-auto" data-placement="top" data-toggle="tooltip" data-original-title="Auto Play">
+                <i class="fa fa-check"></i>
+                <div class="pca-toggle"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+<script type="text/javascript" src="js/player.123music.min.js"></script>
+<script type="text/javascript">
+    var params = {
+        'link_128': 'https://d2tml28x3t0b85.cloudfront.net/tracks/audio/:original/5f0424b0c3c911e89427276b99b24fdb/DJ-very-vn-Nonstop-Viet-Mix-Hay-So-1-VN-DJ-Thang-Nhoc-MP3-320Kbps.mp3',
+        'link_320': '',
+        'link_lossless': '',
+        'type': "song",
+        'current_song_id': '',
+        'se_volume': 0.6,
+        'sources': {},
+        'total_sources': 1
+    };
+    if (!$.cookie('player_settings')) {
+        var settings = {
+            'is_loop': true,
+            'auto_play': true,
+            'se_volume': 0.6
+        };
+        $.cookie('player_settings', JSON.stringify(settings), {expires: 365, path: '/'});
+    } else {
+        var settings = JSON.parse($.cookie('player_settings'));
+    }
+    $(document).ready(function () {
+        init_control();
+        play_song(207910);
+    });
+</script>
+            <!--/music player-->
+			<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/slide.min.js"></script>
+<script type="text/javascript" src="js/detectmobilebrowser.js"></script>
+<script type="text/javascript" src="js/jquery.newsTicker.js"></script>
+<script type="text/javascript" src="js/psbar.jquery.min.js"></script> 
+<script type="text/javascript" src="js/all.min.js"></script> 
+</body></html>
