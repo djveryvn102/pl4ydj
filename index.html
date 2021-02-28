@@ -10,15 +10,30 @@ var cpmstar_pid=50038;
 document.writeln("<SCR"+"IPT language='Javascript' src='//server.cpmstar.com/view.aspx?poolid="+cpmstar_pid+"&script=1&rnd="+cpmstar_rnd+"'></SCR"+"IPT>");
 </SCRIPT></div><p></p>
 <div style ="text-align: center">
-<iframe src="https://beststream.io/api/play/2b0d9b45f352db1c856b4ebd9951e307" frameBorder="0" height="465px" width="600px" allowfullscreen="" style="z-index:unset"></iframe>
-</div>
+<iframe class="frame" src="" frameBorder="0" allowfullscreen="" style="width:600px; height:465px; z-index:unset"></iframe>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+   var cat1 = [
+  "https://beststream.io/api/play/2b0d9b45f352db1c856b4ebd9951e307",
+  "https://beststream.io/api/play/6651676e36f00eb686fdca49622992ac",
+];
 
-<div class="box-content text-center">
-<SCRIPT language="Javascript">
-var cpmstar_rnd=Math.round(Math.random()*999999);
-var cpmstar_pid=50035;
-document.writeln("<SCR"+"IPT language='Javascript' src='//server.cpmstar.com/view.aspx?poolid="+cpmstar_pid+"&script=1&rnd="+cpmstar_rnd+"'></SCR"+"IPT>");
-</SCRIPT>
+var myFrame = document.getElementsByClassName("frame")[0];
+
+function getRandomUrl(myFrame) {
+  var index = Math.floor(Math.random() * cat1.length);
+  var url = cat1[index];
+  myFrame.src = url;
+}
+
+function codeAddress() {
+  getRandomUrl(myFrame);
+}
+
+codeAddress();
+
+console.log(myFrame.src);
+  </script>
 </div>
 <div class="box-bit"><div class="box-content text-center"><p>www.PLAYDJ.com | Style Of Play DJ!→ Website chuyên cung cấp: Nonstop, DJ, EDM, Nhạc Sàn, Việt Remix, Electro, House...chất lượng cao NGHE & DOWNLOAD MP3 320Kbps hoàn toàn MIỄN PHÍ tốc độ ổn định!</p><p class="tag-list"><b>Tags:</b>#<a href="https://play.dj"title="Play.DJ"target="">Play.DJ</a>#<a href="https://dj.very.vn"title="DJ"target="">DJ</a>#<a href="https://nhac.dj"title="Nhạc DJ"target="">Nhạc DJ</a>#<a href="https://playdj.com"title="PlayDJ.com"target="">PlayDJ.com</a></p></div></div></div>
 <div class="box-content text-center"><script id="_waun5w">var _wau = _wau || []; _wau.push(["map", "v499wh9ker", "n5w", "350", "225", "night", "cross-pink"]);</script><script async src="//waust.at/m.js"></script></div>
