@@ -1,0 +1,32 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+  <iframe class="frame" src="" frameBorder="0" allowfullscreen="" style="z-index:unset" style="width:600px; height: 465px"></iframe>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script>
+   var cat1 = [
+  "https://beststream.io/api/play/2b0d9b45f352db1c856b4ebd9951e307",
+  "https://beststream.io/api/play/6651676e36f00eb686fdca49622992ac",
+];
+
+var myFrame = document.getElementsByClassName("frame")[0];
+
+function getRandomUrl(myFrame) {
+  var index = Math.floor(Math.random() * cat1.length);
+  var url = cat1[index];
+  myFrame.src = url;
+}
+
+function codeAddress() {
+  getRandomUrl(myFrame);
+}
+
+codeAddress();
+
+console.log(myFrame.src);
+  </script>
+</body>
