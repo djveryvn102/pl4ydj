@@ -1,0 +1,42 @@
+﻿<!doctype html>
+<html lang="vi">
+ <head>
+<meta http-equiv="Content-Type"content="text/html; charset=utf-8"/>
+  <link rel="shortcut icon"type="image/x-icon"href="https://playdj.com/favicon.ico"/>
+  <link rel="canonical"href="https://playdj.com/"/>
+  <meta name="Author" content="PlayDJ.com">
+  <meta name="Keywords" content="REMIX, DJ, Nonstop, Dance, EDM, Việt Mix, Vina House, Nonstop,2023">
+  <meta name="Description" content="Nonstop, Nhạc Sàn, DJ, Mp3, Nhạc EDM, Electro, REMIX 2023">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ssl.p.jwpcdn.com/player/v/8.1.3/jwplayer.js"></script>
+   <!-- CORE SCRIPTS-->
+    <script type="text/javascript">jwplayer.key = "W7zSm81+mmIsg7F+fyHRKhF3ggLkTqtGMhvI92kbqf/ysE99";</script>
+    <meta name="referrer" content="no-referrer | same-origin | origin | strict-origin | no-origin-when-downgrading">
+  <title>PlayDJ.com: Nonstop; Nhạc Sàn; EDM 2023</title>
+ </head>
+ <body style="margin: unset;">
+
+ <div align="center">
+  <h1>Welcome to website (Play.DJ & PlayDJ.com) 2023</h1>
+  <h2>Email: info@very.vn</h2>
+  <h3>Skype: onlyu.cool</h3>
+  <div align="center">
+    <div id="mediaplayer"></div>
+<script>
+    jwplayer("mediaplayer").setup({
+        width:"800",
+        heigth:"100",
+        autostart:true,
+        preload: "auto",
+        file: "https://playdj.com/hls/20-12-2022-2/playlist.m3u8"
+    });
+</script>
+  </div>
+  <h4>#EDM #DJ #MIXTAPE #Nhạc Sàn #Nonstop #Electro #House 2023</h4>
+<script id="_wau4r9">var _wau = _wau || []; _wau.push(["map", "playdjcom", "4r9", "400", "200", "night", "cross-pink"]);</script><script async src="//waust.at/m.js"></script>
+</div>
+ <div align="center"><a href="https://play.dj" title="Play.DJ" target="_blank">Play.DJ</a>#<a href="https://tinmuc.com" title="Tin Mực" target="_blank">Tin Mực</a>#<a href="https://dj.very.vn" title="DJ" target="_blank">DJ</a>#<a href="https://vemaybay.tv" title="Vé Máy Bay" target="_blank">Vé Máy Bay</a>#<a href="https://playdj.com" title="PlayDJ.com" target="_blank">PlayDJ.com</a> </div><p></p>
+ <center><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2046610811626998"
+     crossorigin="anonymous"></script></center>
+  </body>
+</html>
