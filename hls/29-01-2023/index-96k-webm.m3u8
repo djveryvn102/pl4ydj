@@ -4,7 +4,7 @@
 #EXT-X-TARGETDURATION:30
 #EXT-X-MEDIA-SEQUENCE:20230129162104
 #EXT-X-PLAYLIST-TYPE:EVENT
-#EXT-X-MAP:URI="init.webm"
+#EXT-X-MAP:URI="init-96k.webm"
 #EXTINF:30.016500,
 https://u1h45-opensocial.googleusercontent.com/gadgets/proxy?container=zn89x&no_expand=1&refresh=2592000&url=https://cdn1.play.dj/9/items/63356d8db957a50785f20b038d825377/index-20230129162104-96k.webm
 #EXTINF:29.994667,
