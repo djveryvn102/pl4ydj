@@ -20,7 +20,7 @@ __________________1
         // Hẹn giờ làm mới quảng cáo mỗi 10 giây
         setInterval(function() {
             googletag.pubads().refresh([slot1]);
-        }, 10000);
+        }, 20000);
 
         // Khi quảng cáo trở nên hiển thị, đợi 60 giây và sau đó làm mới
         googletag.pubads().addEventListener('impressionViewable', function(event) {
