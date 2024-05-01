@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Safe Iframe Ad Manager</title>
+<style>
+    .ad-container {
+        position: relative;
+        width: 336px;
+        height: 280px;
+        border: 1px solid #ccc;
+        margin: 20px auto;
+    }
+    .ad-container iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
+</head>
+<body>
+
+<div class="ad-container">
+    <iframe id="adFrame" src="about:blank" title="Advertisement"></iframe>
+</div>
+
+<script>
+    // Function to create and load a safe iframe ad
+    function loadSafeAd(url) {
+        var adFrame = document.getElementById("adFrame");
+        
+        // Clear the iframe content to ensure safety
+        adFrame.src = "about:blank";
+        
+        // Create a new iframe element
+        var newAdFrame = document.createElement("iframe");
+        newAdFrame.src = url;
+        newAdFrame.title = "Advertisement";
+        newAdFrame.width = "336";
+        newAdFrame.height = "280";
+        newAdFrame.frameBorder = "0";
+        
+        // Replace the old iframe with the new one
+        adFrame.parentNode.replaceChild(newAdFrame, adFrame);
+    }
+
+    // Example usage with the Google ad URL
+    var adUrl = "https://partner.googleadservices.com/gampad/ads?gct=d5tp8JWSnh8KfYoYeipuCAkQFkoAWICAgOD9hoKi7wG4AbeOnu2DBNICCXRleHQvaHRtbPAC0AL4ApgCkAMBogMUENACGJgCKICAgOD9hoKi7wHgAQDIA9AC0AOYAvADAsoFDi9wYWdlYWQvaW1nLy4u-gYCKAHwCwGYDwKyAQIYAcoBAkABGKTHybEGKAAwpOP-uAY4AFgBagZfYmxhbmtwjZ2_sQY&iu=52369533&gdfp_req=1&height=280&width=336&impl=ifr&sfv=1-0-40";
+    loadSafeAd(adUrl);
+</script>
+
+</body>
+</html>
