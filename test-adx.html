@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google Ad Manager Ad Refresh Example</title>
-
-__________________1
 <!-- Nhúng thư viện gpt.js -->
 <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
 
@@ -17,7 +15,7 @@ __________________1
         var slot1 = googletag.defineSlot('/52369533/Top-A', [336, 280], 'div-gpt-ad-1714174574300-0')
             .addService(googletag.pubads()); // Thêm dịch vụ quảng cáo vào slot
 
-        // Hẹn giờ làm mới quảng cáo mỗi 10 giây
+        // Hẹn giờ làm mới quảng cáo mỗi 20 giây
         setInterval(function() {
             googletag.pubads().refresh([slot1]);
         }, 20000);
