@@ -28,7 +28,20 @@
             body{
                 background: #444;
             }
-            
+             .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
 
         </style>
         <script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
@@ -74,7 +87,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <h4 class="text-center">Playlist RANDOM Chọn LỌC Hay Mới Nhất Hiện Nay 2024</h4>
         </div>
 <div class="container" align="center"><p>In the heart of the night, when the neon lights paint the sky with a kaleidoscope of colors, and the air is electrified with anticipation, there exists a realm where beats reign supreme and rhythm becomes the language of the soul. This is the world of DJ dance events, where music transcends boundaries and unites souls in a euphoric celebration of life.
-</p><p>
+</p>
+<div align="center" class="iframe-container" id="iframeContainer">
+        <!-- Iframe sẽ được thêm vào đây -->
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const iframeContainer = document.getElementById('iframeContainer');
+            const iframe = document.createElement('iframe');
+            iframe.src = "https://archive.org/embed/40eda25bfac7369382617015d5692f95&playlist=1&autoplay=1&list_height=590";
+            iframe.width = "100%";
+            iframe.height = "600px";
+            iframe.sandbox = "allow-scripts allow-same-origin";
+            iframe.allowFullscreen = true;
+            iframe.frameBorder = "0";
+            iframe.loading = "lazy"; // Thêm thuộc tính lazy load cho iframe
+
+            iframeContainer.appendChild(iframe);
+        });
+    </script>
+<p>
 Picture a sprawling venue pulsating with energy, where bodies move in perfect synchrony to the hypnotic cadence of the DJ's mix. The atmosphere is charged with an infectious enthusiasm, as revelers lose themselves in the intoxicating melodies that reverberate through the air. Each beat is a heartbeat, each melody a whisper of ecstasy, as the crowd becomes one with the music.
 </p><p>
 At the center of it all stands the DJ, a maestro of sound who orchestrates the symphony of the night. Behind the decks, they wield their musical prowess with finesse, seamlessly blending tracks and genres to create a sonic tapestry that captivates the senses. Their hands dance across the mixer, crafting seamless transitions that keep the crowd in a perpetual state of motion.
